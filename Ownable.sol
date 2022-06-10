@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 abstract contract Ownable is Context {
     address public _owner;
     address public _previousOwner;
