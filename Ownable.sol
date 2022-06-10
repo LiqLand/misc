@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.8;
 abstract contract Ownable is Context {
     address public _owner;
     address public _previousOwner;
