@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.8;
 abstract contract Manageable is Context {
     address public _manager;
     event ManagementTransferred(address indexed previousManager, address indexed newManager);
