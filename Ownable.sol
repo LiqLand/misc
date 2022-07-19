@@ -1,5 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.15;
+// OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)
+
+pragma solidity ^0.8.0;
+
 contract Ownable is Context {
     address private _owner;
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
